@@ -1,7 +1,7 @@
 {
   "name": "@voyce/bun-env",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Type-safe environment variable management with Zod validation, dotenv loading, and variable expansion for Bun applications",
   "author": "Voyce Labs",
@@ -43,7 +43,8 @@
     "format": "bunx biome format --write .",
     "check": "bunx biome check --write .",
     "ci:check": "bunx biome ci .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
   },
   "peerDependencies": {
     "typescript": "^5"
